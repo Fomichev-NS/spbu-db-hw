@@ -1,0 +1,26 @@
+# Файлы DBeaver и IDE
+.dbeaver/
+.dbeaver-data-sources*.xml
+*.swp
+*~
+
+# Дампы и бэкапы баз данных (если не хотите ими делиться)
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Файлы переменных окружения (для хранения паролей)
+.env
+*.env
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
